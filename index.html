@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <link rel="stylesheet" href="index.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+      <div class="container container1" id="speedTypingTest">
+          <div class="row">
+              <div class="col-12">
+                  <h1 class="mainHead">Speed Typing Test</h1>
+              </div>
+              <div class="col-12">
+                  <p>On your fingers lets set Go!</p>
+              </div>
+              <div class="col-3">
+                  <img class="img1" src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" />
+              </div>
+              <div class="col-9">
+                  <p id="timer"></p>
+              </div>
+  
+              <div id="sp" class="spinner-border text-primary" role="status">
+  
+              </div>
+          <div class="col-12 box1">
+              <p id="quoteDisplay">
+  
+              </p>
+              <textarea id="quoteInput" rows='5' cols='42'></textarea>
+          </div>
+          <div class="col-12">
+              <p id="result" class="paraRes"></p>
+          </div>
+          <div class="btns">
+              <button id="submitBtn" class="btn subBtn">Submit</button>
+              <button id="resetBtn" class="btn reBun">Reset</button>
+          </div>
+      </div>
+      </div>
+      <script src="index.js"></script>
+  </body>
+</html>
